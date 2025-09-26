@@ -21,6 +21,7 @@ Moving beyond a simple academic exercise, AirportDB tackles real-world challenge
 
 ### Entity-Relationship Diagram (ERD)
 The database schema is built around core entities like `Passengers`, `Flights`, `Reservations`, and `Tickets`, with clear relationships ensuring data integrity. The design emphasizes clarity and scalability.
+![AirportDB ERD](https://github.com/KaluOkorie/AirportDB-/blob/main/Entity-Relationship%20Diagram%20(ERD).png)
 
 ![AirportDB ERD]([path/to/your/ERD-image.png](https://github.com/KaluOkorie/AirportDB-/blob/main/Entity-Relationship%20Diagram%20(ERD).png)) 
 *<!-- Pro-Tip: Actually upload an image of your ERD and link it here! -->*
