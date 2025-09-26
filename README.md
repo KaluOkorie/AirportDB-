@@ -12,7 +12,7 @@ Moving beyond a simple academic exercise, AirportDB tackles real-world challenge
 *   **Smart Automation:** Automates complex calculations for baggage fees, meal upgrades, and preferred seating, reducing human error.
 *   **Real-Time Revenue Analytics:** Provides a dynamic breakdown of revenue streams (fares, baggage, services) per employee and flight via dedicated views.
 *   **Robust Security Model:** Implements Role-Based Access Control (RBAC) with password hashing and salting, ensuring that staff, supervisors, and passengers only access what they need.
-*   **Comprehensive Audit Trail:** Tracks every critical change to passenger or employee data for full transparency and compliance.
+*   **Comprehensive Audit Trail:** Tracks every critical change to passenger or employee data for full transparency, compliance and accountability.
 *   **High-Concurrency Ready:** Uses transactions and row-level locking to prevent issues like double-booking during peak travel times.
 
 ---
@@ -23,8 +23,6 @@ Moving beyond a simple academic exercise, AirportDB tackles real-world challenge
 The database schema is built around core entities like `Passengers`, `Flights`, `Reservations`, and `Tickets`, with clear relationships ensuring data integrity. The design emphasizes clarity and scalability.
 ![AirportDB ERD](https://github.com/KaluOkorie/AirportDB-/blob/main/Entity-Relationship%20Diagram%20(ERD).png)
 
-![AirportDB ERD]([path/to/your/ERD-image.png](https://github.com/KaluOkorie/AirportDB-/blob/main/Entity-Relationship%20Diagram%20(ERD).png)) 
-*<!-- Pro-Tip: Actually upload an image of your ERD and link it here! -->*
 
 ### Normalization
 The database is rigorously normalized to the **Third Normal Form (3NF)**, effectively eliminating data redundancy and update anomalies. This ensures that each piece of information is stored in one place, making the system more efficient and reliable.
@@ -47,7 +45,8 @@ To explore AirportDB on your own SQL Server instance:
         *   `AuditLog` Table: To see the security tracking in action.
 
 3.  **Run Example Queries:**
-    *   The project includes hypothetical data. Try running `SELECT * FROM EmployeeRevenueBreakdown;` to see the revenue analysis view.
+    *   The project includes hypothetical data.
+    *   Try running `SELECT * FROM EmployeeRevenueBreakdown;` to see the revenue analysis view or any other querry.
 
 ---
 
@@ -91,6 +90,6 @@ AirportDB is more than just a database; it's a foundation for building intellige
 I'm passionate about using technology to solve complex problems. If you're interested in databases, software architecture, or just want to talk tech, feel free to reach out!
 
 *   **GitHub:** [KaluOkorie](https://github.com/KaluOkorie)
-*   **LinkedIn:** [<!-- Your LinkedIn Profile Link -->](https://linkedin.com/in/yourprofile)
+*   **LinkedIn:** [https://www.linkedin.com/in/ikennaokorie/](https://www.linkedin.com/in/ikennaokorie/)
 
 > *“The key to efficient travel lies not just in the aircraft, but in the data that guides every passenger smoothly to their destination.”*
